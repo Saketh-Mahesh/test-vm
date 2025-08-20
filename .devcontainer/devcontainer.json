@@ -1,0 +1,14 @@
+{
+  "name": "Mininet Dev Environment",
+  "dockerFile": "Dockerfile",
+  "remoteUser": "mininet",
+  "forwardPorts": [],
+  "postCreateCommand": "sudo service ssh start",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}
